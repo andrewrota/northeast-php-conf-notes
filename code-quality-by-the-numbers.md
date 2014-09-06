@@ -1,5 +1,5 @@
 # Code Quality, By The Numbers
-** by Anthony Ferrara @ircmaxell**
+**by Anthony Ferrara @ircmaxell**
 
 Even the best code still has some question marks in it.
 
@@ -35,17 +35,17 @@ Number of decision points in a routine (block of code)
 
 Cyclomatic Complexity in a single method:
 
-1-4: Low complexity
-5-7: Moderate complexity
-8-10: High complexity
-11+: Very high complexity
+* 1-4: Low complexity
+* 5-7: Moderate complexity
+* 8-10: High complexity
+* 11+: Very high complexity
 
 Average per method (globally) 
 
-1-2: Low
-2-4: Moderate
-4-6: High
-6+: Very high
+* 1-2: Low
+* 2-4: Moderate
+* 4-6: High
+* 6+: Very high
 
 *We have a higher tolerance for local complexity than global complexity*
 
@@ -59,10 +59,10 @@ Cyclomatic complexity isn't that useful of a metric.  But it's the basis of two 
 
 Unique ways of executing a function.
 
-< 16 Low
-17-128: Moderate
-129-1024: High
-1025+: Very high
+* < 16 Low
+* 17-128: Moderate
+* 129-1024: High
+* 1025+: Very high
 
 N Path is the minimum number of tests required to completely test a routine.
 
@@ -74,10 +74,10 @@ If we have a really well covered function that reduces CRAP index
 
 Testing insulates against complexity
 
-< 5 Great
-5-15 Acceptable
-15-30 Eh
-30+ Bad
+* < 5 Great
+* 5-15 Acceptable
+* 15-30 Eh
+* 30+ Bad
 
 ## Reduce Complexity
 
