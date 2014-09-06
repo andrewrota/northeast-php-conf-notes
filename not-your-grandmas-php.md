@@ -185,7 +185,7 @@ You can have an internal version as well.
     
 Always lock in production to certain versions.
 
-	// Will createa  lock file which you will commit to your git repo; lots of opinions on this.
+	// Will create a lock file which you will commit to your git repo; lots of opinions on this.
 	$ php composer.phar update
     $ php composer.phar install
     
