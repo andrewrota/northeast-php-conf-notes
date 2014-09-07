@@ -1,6 +1,8 @@
 # Composer: From Beginning to Expert
 **By Jonathan Klein @jonathanklein**
 
+> [Presentation](http://jkle.in/composer)
+
 ## Using 3rd Party Code
 
 curl installer and pipe it to php.  Move composer.phar to some bin directory in your path.
